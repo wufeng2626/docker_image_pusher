@@ -5,5 +5,3 @@ xhofe/alist:latest
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
 docker pull ghcr.io/openclaw/openclaw:2026.4.15-slim
-docker pull ghcr.io/open-webui/open-webui:git-a4d6225-cuda126
-ghcr.io/ollama/ollama:latest
