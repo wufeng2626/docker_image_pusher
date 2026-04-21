@@ -11,8 +11,8 @@ ollama/ollama:rocm
 qdrant/qdrant:latest-unprivileged
 
 # 多模态/Agent 扩展 (此行必须保留 Docker Hub 格式)
-huggingface/transformers-pytorch-cuda:latest
-
+PostgreSQL
+Dify Plugin Daemon
 # 运维/监控工具
 prom/prometheus:latest
 grafana/grafana:latest
