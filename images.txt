@@ -1,7 +1,8 @@
-nginx
-#支持私库
-k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-xhofe/alist:latest
-#支持指定架构
---platform=linux/arm64 xiaoyaliu/alist
-docker pull ghcr.io/openclaw/openclaw:2026.4.15-slim
+docker pull ollama/ollama:latest
+docker pull qdrant/qdrant:latest
+docker pull langgenius/dify-api:latest
+docker pull langgenius/dify-web:latest
+docker pull postgres:15-alpine
+docker pull redis:6-alpine
+docker pull ghcr.io/open-webui/open-webui:main
+docker pull python:3.10-slim
