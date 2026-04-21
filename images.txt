@@ -1,8 +1,8 @@
 
-docker pull qdrant/qdrant:latest
-docker pull langgenius/dify-api:latest
-docker pull langgenius/dify-web:latest
-docker pull postgres:15-alpine
-docker pull redis:6-alpine
-docker pull ghcr.io/open-webui/open-webui:main
-docker pull python:3.10-slim
+qdrant/qdrant:latest
+langgenius/dify-api:latest
+langgenius/dify-web:latest
+postgres:15-alpine
+redis:6-alpine
+ghcr.io/open-webui/open-webui:main
+python:3.10-slim
