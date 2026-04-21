@@ -1,8 +1,23 @@
-
-qdrant/qdrant:latest
 langgenius/dify-api:latest
 langgenius/dify-web:latest
 postgres:15-alpine
 redis:6-alpine
 ghcr.io/open-webui/open-webui:main
-python:3.10-slim
+# 核心服务扩展
+langgenius/dify-plugin-daemon:latest
+ollama/ollama:rocm
+qdrant/qdrant:latest-unprivileged
+
+# 多模态/Agent 扩展
+ghcr.io/open-webui/open-webui:rocm
+huggingface/transformers-pytorch-cuda:latest
+
+# 运维/监控工具
+prom/prometheus:latest
+grafana/grafana:latest
+fluent/fluent-bit:latest
+
+# 补充基础镜像
+python:3.11-slim
+alpine:latest
+ubuntu:22.04
