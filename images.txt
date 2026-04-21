@@ -1,4 +1,4 @@
-docker pull ollama/ollama:latest
+
 docker pull qdrant/qdrant:latest
 docker pull langgenius/dify-api:latest
 docker pull langgenius/dify-web:latest
