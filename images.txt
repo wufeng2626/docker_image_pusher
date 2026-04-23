@@ -1,24 +1,3 @@
-# 核心服务
-langgenius/dify-api:latest
-langgenius/dify-web:latest
-postgres:15-alpine
-redis:6-alpine
-ghcr.io/open-webui/open-webui:main
-openclaw
-# 核心服务扩展 (已修复)
-langgenius/dify-plugin-daemon:main-local
-ollama/ollama:rocm
-qdrant/qdrant:latest-unprivileged
-
-# 多模态/Agent 扩展 (此行必须保留 Docker Hub 格式)
-postgres
-dify plugin Daemon
-# 运维/监控工具
-prom/prometheus:latest
-grafana/grafana:latest
-fluent/fluent-bit:latest
-
-# 补充基础镜像
-python:3.11-slim
-alpine:latest
-ubuntu:22.04
+dify offline install
+dify offline package
+dify 离线安装包
