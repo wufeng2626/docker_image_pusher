@@ -1,3 +1,12 @@
-dify offline install
-dify offline package
+# Dify 核心业务镜像（稳定版 1.12.1，兼容性最优）
+langgenius/dify-api:1.12.1
+langgenius/dify-web:1.12.1
+langgenius/dify-plugin-daemon:0.6.3
 
+# Dify 基础依赖中间件（官方推荐固定版本）
+postgres:15-alpine
+redis:7-alpine
+nginx:1.25-alpine
+semitechnologies/qdrant:v1.12.2
+busybox:latest
+minio:RELEASE.2023-09-04T19-57-37Z
