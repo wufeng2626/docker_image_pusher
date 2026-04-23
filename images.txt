@@ -4,7 +4,7 @@ langgenius/dify-web:latest
 postgres:15-alpine
 redis:6-alpine
 ghcr.io/open-webui/open-webui:main
-
+openclaw
 # 核心服务扩展 (已修复)
 langgenius/dify-plugin-daemon:main-local
 ollama/ollama:rocm
