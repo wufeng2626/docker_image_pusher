@@ -1,12 +1,23 @@
-# Dify 核心业务镜像（稳定版 1.12.1，兼容性最优）
-langgenius/dify-api:1.12.1
-langgenius/dify-web:1.12.1
-langgenius/dify-plugin-daemon:0.6.3
+# Ollama 核心（ROCm AMD显卡专属）
+ollama/ollama:latest
+ollama/ollama:rocm
 
-# Dify 基础依赖中间件（官方推荐固定版本）
-postgres:15-alpine
+# Dify 全套部署镜像（稳定版1.13.3配套全家桶）
+langgenius/dify-api:1.13.3
+langgenius/dify-worker:1.13.3
+langgenius/dify-web:1.13.3
+langgenius/dify-sandbox:1.13.3
+
+# OpenWebUI 可视化聊天前端
+ghcr.io/open-webui/open-webui:main
+
+# 中间件&向量数据库（和Dify完美适配）
 redis:7-alpine
-nginx:1.25-alpine
-semitechnologies/qdrant:v1.12.2
-busybox:latest
-minio:RELEASE.2023-09-04T19-57-37Z
+postgres:16-alpine
+qdrant/qdrant:latest
+
+# Docker可视化图形管理面板（不用敲命令）
+portainer/portainer-ce:latest
+
+# 备用轻量化知识库备选
+1panel/maxkb:latest
