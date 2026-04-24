@@ -2,9 +2,9 @@
 ghcr.io/openclaw/openclaw:latest
 # Dify 全套部署镜像（稳定版1.13.3配套全家桶）
 langgenius/dify-api:1.13.3
-langgenius/dify-worker:1.13.3
+
 langgenius/dify-web:1.13.3
-langgenius/dify-sandbox:1.13.3
+
 
 
 
