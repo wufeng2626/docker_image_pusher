@@ -1,2 +1,2 @@
 docker
-docker compose
+docker/compose
