@@ -1,17 +1,2 @@
-
-ghcr.io/openclaw/openclaw:latest
-# Dify 全套部署镜像（稳定版1.13.3配套全家桶）
-langgenius/dify-api:1.13.3
-
-langgenius/dify-web:1.13.3
-
-
-
-
-
-
-# Docker可视化图形管理面板（不用敲命令）
-portainer/portainer-ce:latest
-
-# 备用轻量化知识库备选
-1panel/maxkb:latest
+docker
+docker compose
