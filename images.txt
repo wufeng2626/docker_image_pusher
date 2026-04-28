@@ -1,2 +1,2 @@
-docker
-docker/compose
+
+docker-compose-linux-x86_64 
