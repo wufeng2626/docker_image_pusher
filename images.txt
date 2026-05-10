@@ -1,1 +1,1 @@
-nomic-embed-text:latest
+nomic-embed-text
