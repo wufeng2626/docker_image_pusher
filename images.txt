@@ -1,1 +1,1 @@
-nomic-embed-text
+ minio/minio:latest
