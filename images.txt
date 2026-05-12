@@ -1,1 +1,1 @@
- minio/minio:latest
+ Xiaoxi2333/bert_multilabel_chinese
